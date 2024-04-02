@@ -1,0 +1,1 @@
+pyinstaller --onefile --add-data="src\py_easy_downloader;py_easy_downloader" --hidden-import=yt_dlp main.py
